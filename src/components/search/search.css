@@ -1,0 +1,56 @@
+.header-search {
+  display: flex;
+  flex-direction: column;
+}
+.header-search__input {
+  background-color: transparent;
+
+  font-size: 20px;
+  font-family: "danger";
+  letter-spacing: 1.5px;
+  border-radius: 15px;
+  color: rgb(239, 246, 235);
+}
+::placeholder {
+  color: aliceblue;
+}
+.header-search__input:hover {
+  outline: none;
+  box-shadow: 0 0 18px white;
+}
+.contactSearchListWrap {
+  z-index: 2;
+  background-color: #d9d8f0;
+  border-radius: 5px;
+  width: 95%;
+  align-self: center;
+  margin-top: 5px;
+}
+.contactSearchList {
+  display: flex;
+  color: rgb(18, 17, 17);
+
+  flex-direction: column;
+
+  z-index: 2;
+  height: auto;
+  max-height: 400px;
+  overflow: auto;
+  border-radius: 5px;
+  overflow-x: hidden;
+}
+.contactSearchLi {
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  height: 35px;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+.contactSearchLi:hover {
+  width: 95%;
+  align-self: center;
+  border-radius: 5px;
+  background-color: #fff;
+}

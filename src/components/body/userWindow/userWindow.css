@@ -1,0 +1,74 @@
+.userWindow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  padding-top: 5px;
+  opacity: 0.96;
+  position: absolute;
+  max-width: 500px;
+
+  background-color: #a0cdf5;
+  border-radius: 5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  align-self: center;
+  z-index: 1;
+}
+.userWindow_head {
+  padding: 10px;
+  padding-top: 0;
+}
+.userWindow_body {
+  display: flex;
+  padding-bottom: 20px;
+  vertical-align: middle;
+}
+.userWindowInput {
+  background-color: #ffffff;
+  padding: 5px;
+  padding-left: 20px;
+  border-radius: 7px;
+}
+.userWindow_btn-load {
+  margin-top: 20px;
+
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+.userWindow_btn-load:hover {
+  background-color: #e0e2f6;
+}
+.userWindow_preShow {
+  padding: 10px;
+  width: 100%;
+}
+.userWindow-text {
+  padding: 10px;
+}
+.hideBodyWindow {
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: right;
+  color: blue;
+}
+.hideBodyWindow:hover {
+  color: rgb(76, 76, 203);
+}
+.userWindow_preShow {
+  display: block;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+
+  overflow: hidden;
+}
+.userWindow_preShow-img {
+  width: 100%;
+}

@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+
+  justify-content: space-between;
+  margin: 10px 20px;
+  border: 1px solid rgb(84, 73, 244);
+  padding: 8px;
+  border-radius: 5px;
+  background-image: url("../../img/molnia.png");
+  background-size: contain;
+}
+.header-logo {
+  margin-top: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.header-logo__img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.header-logo__img:hover {
+  outline: none;
+  box-shadow: 0 0 18px white;
+}
+.header-menu {
+  margin-right: 20px;
+  display: flex;
+  margin-top: 10px;
+  padding: 5px;
+  color: aliceblue;
+}
+.header-menu__reg {
+  margin-top: 5px;
+  font-family: "cyber";
+  font-size: 12px;
+  margin-right: 10px;
+  cursor: pointer;
+  letter-spacing: 1.2px;
+}
+.header-menu__reg:hover {
+  color: rgb(143, 136, 237);
+}
+.header:has(.header-menu__reg:hover) {
+  background-image: url("../../img/molniaHover.png");
+}
+.header-menu__in {
+  display: flex;
+  margin-top: 5px;
+  margin-right: 10px;
+  font-size: 12px;
+  font-family: "cyber";
+  cursor: pointer;
+  letter-spacing: 1.2px;
+}
+.header-menu__in:hover {
+  color: rgb(143, 136, 237);
+}
+.header:has(.header-menu__in:hover) {
+  background-image: url("../../img/molniaHover2.jpg");
+  background-size: contain;
+}
+
+.header-search {
+  display: flex;
+  width: 40%;
+  height: 40px;
+}
+.header-search__form {
+  display: flex;
+  width: 100%;
+}
+.header-search__input {
+  margin-top: 15px;
+  width: 100%;
+  padding-left: 40%;
+  vertical-align: middle;
+}
+.imgClose {
+  margin-left: 10px;
+  margin-top: -13px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

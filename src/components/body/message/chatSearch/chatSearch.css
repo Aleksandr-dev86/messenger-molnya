@@ -1,0 +1,18 @@
+.chatSearch {
+  width: 100%;
+}
+.chatSearch__form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+#chatSearch__input {
+  width: 50%;
+  height: 40px;
+  font-size: 20px;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-family: "danger";
+  letter-spacing: 1.5px;
+}

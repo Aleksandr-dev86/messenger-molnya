@@ -1,0 +1,18 @@
+.userMessage {
+  display: inline-flex;
+  max-width: 600px;
+  justify-content: right;
+  border-radius: 15px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 0.5px;
+  background-color: yellow;
+  padding: 8px;
+  margin-top: 10px;
+  padding-right: 20px;
+}
+.userMessage-content {
+  font-weight: bold;
+}
+.userMessage-content__time {
+  color: rgb(96, 96, 212);
+}

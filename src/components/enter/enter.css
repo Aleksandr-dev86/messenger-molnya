@@ -1,0 +1,70 @@
+.enter {
+  padding: 30px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  height: 100vh;
+  width: 97.5%;
+
+  background-image: url(../../img/regFlash.gif);
+  background-position: -80px 0;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+.enter-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.enter-form {
+  width: 320px;
+  z-index: 1;
+  background-color: transparent;
+  outline: none;
+  box-shadow: 0 0 18px white;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid rgb(128, 128, 215);
+  border-radius: 10px;
+  font-size: 40px;
+  color: yellow;
+  margin-top: 50px;
+  font-family: "danger";
+  margin-bottom: 50px;
+}
+.enter-form input {
+  font-family: "danger";
+  height: 40px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-size: 25px;
+
+  margin-top: 5px;
+}
+.enterButton {
+  height: 50px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 0 20px;
+  font-weight: bold;
+  background-color: yellow;
+  letter-spacing: 1.3px;
+  color: black;
+  font-family: "danger";
+  font-size: 20px;
+}
+.enter-wrap__forgot {
+  color: aliceblue;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  font-family: "danger";
+  letter-spacing: 1.3px;
+}
+.enter-wrap__forgot:hover {
+  color: #abaddb;
+}

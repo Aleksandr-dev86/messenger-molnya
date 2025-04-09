@@ -1,0 +1,224 @@
+.userChatInput {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.messages {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column; /* Сообщения будут отображаться снизу вверх */
+  max-height: 70vh; /* Ограничиваем высоту области сообщений */
+}
+
+.message-chat__message {
+  display: flex;
+  flex-direction: column; /* Новые сообщения будут внизу */
+  width: 100%;
+}
+
+.userChatInput-form {
+  position: relative;
+  margin-top: 20px;
+  width: 100%;
+  padding-right: 105px;
+  display: flex;
+  justify-content: right;
+}
+
+#userChatInput__input {
+  width: 20%;
+  min-height: 60px;
+  border-radius: 15px;
+  padding: 15px 8px;
+  position: fixed;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 0.5px;
+  font-size: 20px;
+  text-wrap: wrap;
+  margin-right: 63px;
+}
+#userChatInput__input::placeholder {
+  color: rgb(211, 189, 189);
+  opacity: 1;
+}
+
+#userChatInput__input:focus {
+  width: 35%;
+  transition: 0.5s;
+}
+
+.userChatInput-button {
+  position: fixed;
+  margin-top: 2px;
+  margin-right: 8px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(209, 209, 50);
+  font-family: "danger";
+  letter-spacing: 1.5px;
+}
+
+.userChatInput-button:hover {
+  background-color: yellow;
+}
+
+.userMessage {
+  margin: 5px 0;
+  margin-left: 10px;
+  border-radius: 5px;
+  max-width: 60%;
+  align-self: flex-start;
+}
+
+.userMessage.sent {
+  background-color: #dcf8c6;
+  align-self: flex-end;
+}
+
+.userMessage.received {
+  background-color: #fff;
+  align-self: flex-start;
+}
+
+.userMessage-content {
+  margin: 0;
+}
+
+.userMessage-content__time {
+  font-size: 0.8em;
+  color: #999;
+  text-align: right;
+}
+/* Добавьте это в файл userChatInput.css */
+
+.delete-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.delete-modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.delete-modal p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.delete-modal-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.delete-modal-buttons button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-modal-buttons button:first-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-modal-buttons button:last-child {
+  background-color: #6c757d;
+  color: white;
+}
+
+.userMessage-delete {
+  background: none;
+  border: none;
+  color: #999;
+  cursor: pointer;
+  padding: 0;
+  font-size: 12px;
+  visibility: hidden; /* Скрываем кнопку по умолчанию */
+}
+
+.userMessage:hover .userMessage-delete {
+  visibility: visible; /* Показываем кнопку при наведении */
+}
+
+.userMessage-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: #999;
+}
+.userMessage-sender {
+  font-size: smaller;
+  font-weight: bolder;
+  color: #555;
+  margin: 5px;
+}
+.userMessage-contenttime {
+  font-size: smaller;
+  color: #999;
+  margin: 5px;
+}
+.userMessage-footer {
+  display: inline-block;
+  margin-top: 5px;
+}
+.userMessage {
+  display: flex;
+  flex-direction: column; /* Располагаем элементы в колонку */
+  margin: 10px 10px; /* Отступы между сообщениями */
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f1f1f1; /* Цвет фона сообщения */
+  position: relative; /* Для позиционирования отправителя */
+}
+
+.userMessage-content {
+  margin: 0; /* Убираем отступы */
+}
+
+.userMessage-footer {
+  display: flex;
+  justify-content: space-between; /* Размещаем дату и кнопку удаления по краям */
+  align-items: center; /* Выравниваем по центру по вертикали */
+  margin-top: 5px; /* Отступ сверху для отделения от сообщения */
+}
+
+.userMessage-contenttime {
+  margin: 0; /* Убираем отступы */
+}
+
+.userMessage-delete {
+  background: none; /* Убираем фон кнопки */
+  border: none; /* Убираем рамку */
+  cursor: pointer; /* Указываем, что это кнопка */
+}
+
+.userMessage-sender {
+  position: relative; /* Позиционируем отправителя */
+  font-weight: bold; /* Делаем текст жирным */
+  font-size: 0.9em; /* Уменьшаем размер шрифта */
+}
+.message-chatmessage {
+  display: flex;
+  flex-direction: column;
+}

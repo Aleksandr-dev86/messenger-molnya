@@ -1,0 +1,71 @@
+.wrap-hiMenu {
+  margin: 0 auto;
+  width: 97.5%;
+  background-color: black;
+  border-radius: 5px;
+  height: 100vh;
+  padding-top: 5px;
+}
+.hiMenu {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  margin: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+.liveFlash {
+  outline: none;
+  box-shadow: 0 0 18px rgb(88, 97, 228);
+  width: 60%;
+  height: 550px;
+  border-radius: 5px;
+}
+.hiMenu__content {
+  color: rgb(194, 218, 238);
+  font-family: "cyber";
+  position: absolute;
+
+  width: 300px;
+  padding-top: 50px;
+  font-size: 35px;
+  line-height: 1.3;
+}
+.hiMenu-ancore {
+  color: inherit;
+  cursor: pointer;
+}
+.hiMenu-ancore:hover {
+  color: rgb(31, 95, 148);
+}
+.hiMenuLogo {
+  margin-left: -80px;
+  font-size: 70px;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: aliceblue;
+}
+.hiMenu-head {
+  margin-left: -20px;
+}
+.hiMenu-choise {
+  position: relative;
+  margin-top: 100px;
+  left: -150px;
+  width: 600px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.slogan {
+  width: 550px;
+  margin-left: -120px;
+  font-size: 30px;
+}
+
+@font-face {
+  font-family: "cyber";
+  src: url(../../fonts/d_Cyberspace/d_cyberspace.otf);
+}
