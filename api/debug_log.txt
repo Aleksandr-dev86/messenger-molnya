@@ -1,0 +1,1831 @@
+2025-03-31 11:06:14 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"Привет привет\"","timestamp":"2025-03-31T11:06:14.789Z","originalSender":"matvey","groupName":"Тестовая группа 2"}
+2025-03-31 11:06:14 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => Привет привет"
+    [timestamp] => 2025-03-31T11:06:14.789Z
+    [originalSender] => matvey
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 11:06:14 - Converted timestamp: 2025-03-31 11:06:14
+2025-03-31 11:06:14 - Processing GROUP message for group: Тестовая группа 2 from: matvey
+2025-03-31 11:06:19 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"привет привет","timestamp":"2025-03-31T11:06:19.700Z","originalSender":"jkl","groupName":"Тестовая группа 2"}
+2025-03-31 11:06:19 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => привет привет
+    [timestamp] => 2025-03-31T11:06:19.700Z
+    [originalSender] => jkl
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 11:06:19 - Converted timestamp: 2025-03-31 11:06:19
+2025-03-31 11:06:19 - Processing GROUP message for group: Тестовая группа 2 from: jkl
+2025-03-31 11:07:50 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"ПРивет привет\"","timestamp":"2025-03-31T11:07:50.379Z","originalSender":"matvey","groupName":"Тестовая группа 2"}
+2025-03-31 11:07:50 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => ПРивет привет"
+    [timestamp] => 2025-03-31T11:07:50.379Z
+    [originalSender] => matvey
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 11:07:50 - Converted timestamp: 2025-03-31 11:07:50
+2025-03-31 11:07:50 - Processing GROUP message for group: Тестовая группа 2 from: matvey
+2025-03-31 11:07:50 - Group users: Array
+(
+    [0] => ivan
+    [1] => Zahar
+    [2] => jkl
+    [3] => matvey
+)
+
+2025-03-31 11:07:50 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 65
+            [1] => 66
+            [2] => 67
+            [3] => 68
+        )
+
+)
+
+2025-03-31 11:07:56 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"Привет!","timestamp":"2025-03-31T11:07:56.128Z","originalSender":"jkl","groupName":"Тестовая группа 2"}
+2025-03-31 11:07:56 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => Привет!
+    [timestamp] => 2025-03-31T11:07:56.128Z
+    [originalSender] => jkl
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 11:07:56 - Converted timestamp: 2025-03-31 11:07:56
+2025-03-31 11:07:56 - Processing GROUP message for group: Тестовая группа 2 from: jkl
+2025-03-31 11:07:56 - Group users: Array
+(
+    [0] => ivan
+    [1] => Zahar
+    [2] => jkl
+    [3] => matvey
+)
+
+2025-03-31 11:07:56 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 69
+            [1] => 70
+            [2] => 71
+            [3] => 72
+        )
+
+)
+
+2025-03-31 11:19:13 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"Привет, ребята!","timestamp":"2025-03-31T11:19:13.305Z","originalSender":"matvey","groupName":"Тестовая группа 2"}
+2025-03-31 11:19:13 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => Привет, ребята!
+    [timestamp] => 2025-03-31T11:19:13.305Z
+    [originalSender] => matvey
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 11:19:13 - Converted timestamp: 2025-03-31 11:19:13
+2025-03-31 11:19:13 - Processing GROUP message for group: Тестовая группа 2 from: matvey
+2025-03-31 11:19:13 - Group users: Array
+(
+    [0] => ivan
+    [1] => Zahar
+    [2] => jkl
+    [3] => matvey
+)
+
+2025-03-31 11:19:13 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 73
+            [1] => 74
+            [2] => 75
+            [3] => 76
+        )
+
+)
+
+2025-03-31 11:19:26 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"Привет, ребята!","timestamp":"2025-03-31T11:19:26.315Z","originalSender":"jkl","groupName":"Тестовая группа 2"}
+2025-03-31 11:19:26 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => Привет, ребята!
+    [timestamp] => 2025-03-31T11:19:26.315Z
+    [originalSender] => jkl
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 11:19:26 - Converted timestamp: 2025-03-31 11:19:26
+2025-03-31 11:19:26 - Processing GROUP message for group: Тестовая группа 2 from: jkl
+2025-03-31 11:19:26 - Group users: Array
+(
+    [0] => ivan
+    [1] => Zahar
+    [2] => jkl
+    [3] => matvey
+)
+
+2025-03-31 11:19:26 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 77
+            [1] => 78
+            [2] => 79
+            [3] => 80
+        )
+
+)
+
+2025-03-31 11:22:11 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"Привет всем!","timestamp":"2025-03-31T11:22:11.789Z","originalSender":"matvey","groupName":"Тестовая группа 2"}
+2025-03-31 11:22:11 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => Привет всем!
+    [timestamp] => 2025-03-31T11:22:11.789Z
+    [originalSender] => matvey
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 11:22:11 - Converted timestamp: 2025-03-31 11:22:11
+2025-03-31 11:22:11 - Processing GROUP message for group: Тестовая группа 2 from: matvey
+2025-03-31 11:22:11 - Group users: Array
+(
+    [0] => ivan
+    [1] => Zahar
+    [2] => jkl
+    [3] => matvey
+)
+
+2025-03-31 11:22:11 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 81
+            [1] => 82
+            [2] => 83
+            [3] => 84
+        )
+
+)
+
+2025-03-31 11:22:20 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"Привет, а кто это пишет?","timestamp":"2025-03-31T11:22:20.140Z","originalSender":"jkl","groupName":"Тестовая группа 2"}
+2025-03-31 11:22:20 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => Привет, а кто это пишет?
+    [timestamp] => 2025-03-31T11:22:20.140Z
+    [originalSender] => jkl
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 11:22:20 - Converted timestamp: 2025-03-31 11:22:20
+2025-03-31 11:22:20 - Processing GROUP message for group: Тестовая группа 2 from: jkl
+2025-03-31 11:22:20 - Group users: Array
+(
+    [0] => ivan
+    [1] => Zahar
+    [2] => jkl
+    [3] => matvey
+)
+
+2025-03-31 11:22:20 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 85
+            [1] => 86
+            [2] => 87
+            [3] => 88
+        )
+
+)
+
+2025-03-31 11:27:49 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"привет!","timestamp":"2025-03-31T11:27:49.473Z","originalSender":"matvey","groupName":"Тестовая группа 2"}
+2025-03-31 11:27:49 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => привет!
+    [timestamp] => 2025-03-31T11:27:49.473Z
+    [originalSender] => matvey
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 11:27:49 - Converted timestamp: 2025-03-31 11:27:49
+2025-03-31 11:27:49 - Processing GROUP message for group: Тестовая группа 2 from: matvey
+2025-03-31 11:27:49 - Group users: Array
+(
+    [0] => ivan
+    [1] => Zahar
+    [2] => jkl
+    [3] => matvey
+)
+
+2025-03-31 11:27:49 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 89
+            [1] => 90
+            [2] => 91
+            [3] => 92
+        )
+
+)
+
+2025-03-31 11:36:50 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"Првиет, как твои дела?","timestamp":"2025-03-31T11:36:50.666Z","originalSender":"matvey","groupName":"Тестовая группа 2"}
+2025-03-31 11:36:50 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => Првиет, как твои дела?
+    [timestamp] => 2025-03-31T11:36:50.666Z
+    [originalSender] => matvey
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 11:36:50 - Converted timestamp: 2025-03-31 11:36:50
+2025-03-31 11:36:50 - Processing GROUP message for group: Тестовая группа 2 from: matvey
+2025-03-31 11:36:50 - Group users: Array
+(
+    [0] => ivan
+    [1] => Zahar
+    [2] => jkl
+    [3] => matvey
+)
+
+2025-03-31 11:36:50 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 93
+            [1] => 94
+            [2] => 95
+            [3] => 96
+        )
+
+)
+
+2025-03-31 11:36:58 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"Привет, да отлично!","timestamp":"2025-03-31T11:36:58.238Z","originalSender":"jkl","groupName":"Тестовая группа 2"}
+2025-03-31 11:36:58 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => Привет, да отлично!
+    [timestamp] => 2025-03-31T11:36:58.238Z
+    [originalSender] => jkl
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 11:36:58 - Converted timestamp: 2025-03-31 11:36:58
+2025-03-31 11:36:58 - Processing GROUP message for group: Тестовая группа 2 from: jkl
+2025-03-31 11:36:58 - Group users: Array
+(
+    [0] => ivan
+    [1] => Zahar
+    [2] => jkl
+    [3] => matvey
+)
+
+2025-03-31 11:36:58 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 97
+            [1] => 98
+            [2] => 99
+            [3] => 100
+        )
+
+)
+
+2025-03-31 11:38:30 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"Привет всем, ребята!","timestamp":"2025-03-31T11:38:30.789Z","originalSender":"jkl","groupName":"Тестовая группа 2"}
+2025-03-31 11:38:30 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => Привет всем, ребята!
+    [timestamp] => 2025-03-31T11:38:30.789Z
+    [originalSender] => jkl
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 11:38:30 - Converted timestamp: 2025-03-31 11:38:30
+2025-03-31 11:38:30 - Processing GROUP message for group: Тестовая группа 2 from: jkl
+2025-03-31 11:38:30 - Group users: Array
+(
+    [0] => ivan
+    [1] => Zahar
+    [2] => jkl
+    [3] => matvey
+)
+
+2025-03-31 11:38:30 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 101
+            [1] => 102
+            [2] => 103
+            [3] => 104
+        )
+
+)
+
+2025-03-31 11:38:40 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"Привет, как твои дела?","timestamp":"2025-03-31T11:38:40.870Z","originalSender":"matvey","groupName":"Тестовая группа 2"}
+2025-03-31 11:38:40 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => Привет, как твои дела?
+    [timestamp] => 2025-03-31T11:38:40.870Z
+    [originalSender] => matvey
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 11:38:40 - Converted timestamp: 2025-03-31 11:38:40
+2025-03-31 11:38:40 - Processing GROUP message for group: Тестовая группа 2 from: matvey
+2025-03-31 11:38:40 - Group users: Array
+(
+    [0] => ivan
+    [1] => Zahar
+    [2] => jkl
+    [3] => matvey
+)
+
+2025-03-31 11:38:40 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 105
+            [1] => 106
+            [2] => 107
+            [3] => 108
+        )
+
+)
+
+2025-03-31 11:42:15 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"Привет всем!","timestamp":"2025-03-31T11:42:15.358Z","originalSender":"matvey","groupName":"Тестовая группа 2"}
+2025-03-31 11:42:15 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => Привет всем!
+    [timestamp] => 2025-03-31T11:42:15.358Z
+    [originalSender] => matvey
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 11:42:15 - Converted timestamp: 2025-03-31 11:42:15
+2025-03-31 11:42:15 - Processing GROUP message for group: Тестовая группа 2 from: matvey
+2025-03-31 11:42:15 - Group users: Array
+(
+    [0] => ivan
+    [1] => Zahar
+    [2] => jkl
+    [3] => matvey
+)
+
+2025-03-31 11:42:15 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 109
+            [1] => 110
+            [2] => 111
+            [3] => 112
+        )
+
+)
+
+2025-03-31 11:50:50 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"Привет","timestamp":"2025-03-31T11:50:50.831Z","originalSender":"matvey","groupName":"Тестовая группа 2"}
+2025-03-31 11:50:50 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => Привет
+    [timestamp] => 2025-03-31T11:50:50.831Z
+    [originalSender] => matvey
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 11:50:50 - Converted timestamp: 2025-03-31 11:50:50
+2025-03-31 11:50:50 - Processing GROUP message for group: Тестовая группа 2 from: matvey
+2025-03-31 11:50:50 - Group users: Array
+(
+    [0] => ivan
+    [1] => Zahar
+    [2] => jkl
+    [3] => matvey
+)
+
+2025-03-31 11:50:50 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 113
+            [1] => 114
+            [2] => 115
+            [3] => 116
+        )
+
+)
+
+2025-03-31 12:40:58 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"Привет, как жизнь ваша?","timestamp":"2025-03-31T12:40:58.742Z","originalSender":"matvey","groupName":"Тестовая группа 2"}
+2025-03-31 12:40:58 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => Привет, как жизнь ваша?
+    [timestamp] => 2025-03-31T12:40:58.742Z
+    [originalSender] => matvey
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 12:40:58 - Converted timestamp: 2025-03-31 12:40:58
+2025-03-31 12:40:58 - Processing GROUP message for group: Тестовая группа 2 from: matvey
+2025-03-31 12:40:58 - Group users: Array
+(
+    [0] => ivan
+    [1] => Zahar
+    [2] => jkl
+    [3] => matvey
+)
+
+2025-03-31 12:40:58 - Generated keyMessage: 74144
+2025-03-31 12:40:58 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 117
+            [1] => 118
+            [2] => 119
+            [3] => 120
+        )
+
+    [keyMessage] => 74144
+)
+
+2025-03-31 12:53:41 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"Привет, как дела у вас?","timestamp":"2025-03-31T12:53:41.344Z","originalSender":"matvey","groupName":"Тестовая группа 2"}
+2025-03-31 12:53:41 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => Привет, как дела у вас?
+    [timestamp] => 2025-03-31T12:53:41.344Z
+    [originalSender] => matvey
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 12:53:41 - Converted timestamp: 2025-03-31 12:53:41
+2025-03-31 12:53:41 - Processing GROUP message for group: Тестовая группа 2 from: matvey
+2025-03-31 12:53:41 - Group users: Array
+(
+    [0] => ivan
+    [1] => Zahar
+    [2] => jkl
+    [3] => matvey
+)
+
+2025-03-31 12:53:41 - Generated keyMessage: 61083
+2025-03-31 12:53:41 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 121
+            [1] => 122
+            [2] => 123
+            [3] => 124
+        )
+
+    [keyMessage] => 61083
+)
+
+2025-03-31 12:53:51 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"Привет, все отлично, твои как?","timestamp":"2025-03-31T12:53:51.099Z","originalSender":"jkl","groupName":"Тестовая группа 2"}
+2025-03-31 12:53:51 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => Привет, все отлично, твои как?
+    [timestamp] => 2025-03-31T12:53:51.099Z
+    [originalSender] => jkl
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 12:53:51 - Converted timestamp: 2025-03-31 12:53:51
+2025-03-31 12:53:51 - Processing GROUP message for group: Тестовая группа 2 from: jkl
+2025-03-31 12:53:51 - Group users: Array
+(
+    [0] => ivan
+    [1] => Zahar
+    [2] => jkl
+    [3] => matvey
+)
+
+2025-03-31 12:53:51 - Generated keyMessage: 32988
+2025-03-31 12:53:51 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 125
+            [1] => 126
+            [2] => 127
+            [3] => 128
+        )
+
+    [keyMessage] => 32988
+)
+
+2025-03-31 12:54:11 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"О привет, ребят, заработало наконец-то?","timestamp":"2025-03-31T12:54:11.760Z","originalSender":"Zahar","groupName":"Тестовая группа 2"}
+2025-03-31 12:54:11 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => О привет, ребят, заработало наконец-то?
+    [timestamp] => 2025-03-31T12:54:11.760Z
+    [originalSender] => Zahar
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 12:54:11 - Converted timestamp: 2025-03-31 12:54:11
+2025-03-31 12:54:11 - Processing GROUP message for group: Тестовая группа 2 from: Zahar
+2025-03-31 12:54:11 - Group users: Array
+(
+    [0] => ivan
+    [1] => Zahar
+    [2] => jkl
+    [3] => matvey
+)
+
+2025-03-31 12:54:11 - Generated keyMessage: 16230
+2025-03-31 12:54:11 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 129
+            [1] => 130
+            [2] => 131
+            [3] => 132
+        )
+
+    [keyMessage] => 16230
+)
+
+2025-03-31 12:57:54 - Received data: {"sender":"jkl","receiver":"matvey","content":"Привет!","timestamp":"2025-03-31T12:57:54.859Z"}
+2025-03-31 12:57:54 - Parsed data: Array
+(
+    [sender] => jkl
+    [receiver] => matvey
+    [content] => Привет!
+    [timestamp] => 2025-03-31T12:57:54.859Z
+)
+
+2025-03-31 12:57:54 - Converted timestamp: 2025-03-31 12:57:54
+2025-03-31 12:57:54 - Preparing to insert PERSONAL message: sender=jkl, receiver=matvey, timestamp=2025-03-31 12:57:54
+2025-03-31 12:57:54 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 133
+)
+
+2025-03-31 12:58:11 - Received data: {"sender":"matvey","receiver":"jkl","content":"Привет, видел,группы добавились?","timestamp":"2025-03-31T12:58:11.617Z"}
+2025-03-31 12:58:11 - Parsed data: Array
+(
+    [sender] => matvey
+    [receiver] => jkl
+    [content] => Привет, видел,группы добавились?
+    [timestamp] => 2025-03-31T12:58:11.617Z
+)
+
+2025-03-31 12:58:11 - Converted timestamp: 2025-03-31 12:58:11
+2025-03-31 12:58:11 - Preparing to insert PERSONAL message: sender=matvey, receiver=jkl, timestamp=2025-03-31 12:58:11
+2025-03-31 12:58:11 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 134
+)
+
+2025-03-31 12:58:18 - Received data: {"sender":"jkl","receiver":"matvey","content":"Ага, круто!","timestamp":"2025-03-31T12:58:18.274Z"}
+2025-03-31 12:58:18 - Parsed data: Array
+(
+    [sender] => jkl
+    [receiver] => matvey
+    [content] => Ага, круто!
+    [timestamp] => 2025-03-31T12:58:18.274Z
+)
+
+2025-03-31 12:58:18 - Converted timestamp: 2025-03-31 12:58:18
+2025-03-31 12:58:18 - Preparing to insert PERSONAL message: sender=jkl, receiver=matvey, timestamp=2025-03-31 12:58:18
+2025-03-31 12:58:18 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 135
+)
+
+2025-03-31 13:01:36 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"Привет, ребята!","timestamp":"2025-03-31T13:01:36.901Z","originalSender":"matvey","groupName":"Тестовая группа 2"}
+2025-03-31 13:01:36 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => Привет, ребята!
+    [timestamp] => 2025-03-31T13:01:36.901Z
+    [originalSender] => matvey
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 13:01:36 - Converted timestamp: 2025-03-31 13:01:36
+2025-03-31 13:01:36 - Processing GROUP message for group: Тестовая группа 2 from: matvey
+2025-03-31 13:01:36 - Group users: Array
+(
+    [0] => ivan
+    [1] => Zahar
+    [2] => jkl
+    [3] => matvey
+)
+
+2025-03-31 13:01:36 - Generated keyMessage: 76053
+2025-03-31 13:01:36 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 136
+            [1] => 137
+            [2] => 138
+            [3] => 139
+        )
+
+    [keyMessage] => 76053
+)
+
+2025-03-31 13:01:43 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"Привет, привет!","timestamp":"2025-03-31T13:01:43.853Z","originalSender":"jkl","groupName":"Тестовая группа 2"}
+2025-03-31 13:01:43 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => Привет, привет!
+    [timestamp] => 2025-03-31T13:01:43.853Z
+    [originalSender] => jkl
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 13:01:43 - Converted timestamp: 2025-03-31 13:01:43
+2025-03-31 13:01:43 - Processing GROUP message for group: Тестовая группа 2 from: jkl
+2025-03-31 13:01:43 - Group users: Array
+(
+    [0] => ivan
+    [1] => Zahar
+    [2] => jkl
+    [3] => matvey
+)
+
+2025-03-31 13:01:43 - Generated keyMessage: 99957
+2025-03-31 13:01:43 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 140
+            [1] => 141
+            [2] => 142
+            [3] => 143
+        )
+
+    [keyMessage] => 99957
+)
+
+2025-03-31 13:02:10 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"О! Здравствуйте!","timestamp":"2025-03-31T13:02:10.949Z","originalSender":"Zahar","groupName":"Тестовая группа 2"}
+2025-03-31 13:02:10 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => О! Здравствуйте!
+    [timestamp] => 2025-03-31T13:02:10.949Z
+    [originalSender] => Zahar
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 13:02:10 - Converted timestamp: 2025-03-31 13:02:10
+2025-03-31 13:02:10 - Processing GROUP message for group: Тестовая группа 2 from: Zahar
+2025-03-31 13:02:10 - Group users: Array
+(
+    [0] => ivan
+    [1] => Zahar
+    [2] => jkl
+    [3] => matvey
+)
+
+2025-03-31 13:02:10 - Generated keyMessage: 80490
+2025-03-31 13:02:10 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 144
+            [1] => 145
+            [2] => 146
+            [3] => 147
+        )
+
+    [keyMessage] => 80490
+)
+
+2025-03-31 13:08:57 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"Привет, щас проверим удаление сообщений!","timestamp":"2025-03-31T13:08:57.869Z","originalSender":"matvey","groupName":"Тестовая группа 2"}
+2025-03-31 13:08:57 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => Привет, щас проверим удаление сообщений!
+    [timestamp] => 2025-03-31T13:08:57.869Z
+    [originalSender] => matvey
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 13:08:57 - Converted timestamp: 2025-03-31 13:08:57
+2025-03-31 13:08:57 - Processing GROUP message for group: Тестовая группа 2 from: matvey
+2025-03-31 13:08:57 - Group users: Array
+(
+    [0] => ivan
+    [1] => Zahar
+    [2] => jkl
+    [3] => matvey
+)
+
+2025-03-31 13:08:57 - Generated keyMessage: 71028
+2025-03-31 13:08:57 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 148
+            [1] => 149
+            [2] => 150
+            [3] => 151
+        )
+
+    [keyMessage] => 71028
+)
+
+2025-03-31 13:09:04 - Received data: {"sender":"Тестовая группа 2","receiver":"GROUP","content":"Ага, давай!","timestamp":"2025-03-31T13:09:04.419Z","originalSender":"jkl","groupName":"Тестовая группа 2"}
+2025-03-31 13:09:04 - Parsed data: Array
+(
+    [sender] => Тестовая группа 2
+    [receiver] => GROUP
+    [content] => Ага, давай!
+    [timestamp] => 2025-03-31T13:09:04.419Z
+    [originalSender] => jkl
+    [groupName] => Тестовая группа 2
+)
+
+2025-03-31 13:09:04 - Converted timestamp: 2025-03-31 13:09:04
+2025-03-31 13:09:04 - Processing GROUP message for group: Тестовая группа 2 from: jkl
+2025-03-31 13:09:04 - Group users: Array
+(
+    [0] => ivan
+    [1] => Zahar
+    [2] => jkl
+    [3] => matvey
+)
+
+2025-03-31 13:09:04 - Generated keyMessage: 1535
+2025-03-31 13:09:04 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 152
+            [1] => 153
+            [2] => 154
+            [3] => 155
+        )
+
+    [keyMessage] => 1535
+)
+
+2025-03-31 13:13:39 - Received data: {"sender":"matvey","receiver":"jkl","content":"Привет! Удаляется сообщение?","timestamp":"2025-03-31T13:13:39.374Z"}
+2025-03-31 13:13:39 - Parsed data: Array
+(
+    [sender] => matvey
+    [receiver] => jkl
+    [content] => Привет! Удаляется сообщение?
+    [timestamp] => 2025-03-31T13:13:39.374Z
+)
+
+2025-03-31 13:13:39 - Converted timestamp: 2025-03-31 13:13:39
+2025-03-31 13:13:39 - Preparing to insert PERSONAL message: sender=matvey, receiver=jkl, timestamp=2025-03-31 13:13:39
+2025-03-31 13:13:39 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 156
+)
+
+2025-03-31 13:13:51 - Received data: {"sender":"jkl","receiver":"matvey","content":"Ну давай проверим!","timestamp":"2025-03-31T13:13:51.503Z"}
+2025-03-31 13:13:51 - Parsed data: Array
+(
+    [sender] => jkl
+    [receiver] => matvey
+    [content] => Ну давай проверим!
+    [timestamp] => 2025-03-31T13:13:51.503Z
+)
+
+2025-03-31 13:13:51 - Converted timestamp: 2025-03-31 13:13:51
+2025-03-31 13:13:51 - Preparing to insert PERSONAL message: sender=jkl, receiver=matvey, timestamp=2025-03-31 13:13:51
+2025-03-31 13:13:51 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 157
+)
+
+2025-03-31 14:56:16 - Received data: {"sender":"vitya","receiver":"jkl","content":"fdf","timestamp":"2025-03-31T14:56:16.627Z"}
+2025-03-31 14:56:16 - Parsed data: Array
+(
+    [sender] => vitya
+    [receiver] => jkl
+    [content] => fdf
+    [timestamp] => 2025-03-31T14:56:16.627Z
+)
+
+2025-03-31 14:56:16 - Converted timestamp: 2025-03-31 14:56:16
+2025-03-31 14:56:16 - Preparing to insert PERSONAL message: sender=vitya, receiver=jkl, timestamp=2025-03-31 14:56:16
+2025-03-31 14:56:16 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 192
+)
+
+2025-03-31 14:57:53 - Received data: {"sender":"work","receiver":"GROUP","content":"ffff","timestamp":"2025-03-31T14:57:53.376Z","originalSender":"vitya","groupName":"work"}
+2025-03-31 14:57:53 - Parsed data: Array
+(
+    [sender] => work
+    [receiver] => GROUP
+    [content] => ffff
+    [timestamp] => 2025-03-31T14:57:53.376Z
+    [originalSender] => vitya
+    [groupName] => work
+)
+
+2025-03-31 14:57:53 - Converted timestamp: 2025-03-31 14:57:53
+2025-03-31 14:57:53 - Processing GROUP message for group: work from: vitya
+2025-03-31 14:57:53 - Group users: Array
+(
+    [0] => jkl
+    [1] => ivan
+    [2] => vasia
+    [3] => vitya
+)
+
+2025-03-31 14:57:53 - Generated keyMessage: 70648
+2025-03-31 14:57:53 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 193
+            [1] => 194
+            [2] => 195
+            [3] => 196
+        )
+
+    [keyMessage] => 70648
+)
+
+2025-03-31 14:58:43 - Received data: {"sender":"work","receiver":"GROUP","content":"huuujt","timestamp":"2025-03-31T14:58:43.193Z","originalSender":"jkl","groupName":"work"}
+2025-03-31 14:58:43 - Parsed data: Array
+(
+    [sender] => work
+    [receiver] => GROUP
+    [content] => huuujt
+    [timestamp] => 2025-03-31T14:58:43.193Z
+    [originalSender] => jkl
+    [groupName] => work
+)
+
+2025-03-31 14:58:43 - Converted timestamp: 2025-03-31 14:58:43
+2025-03-31 14:58:43 - Processing GROUP message for group: work from: jkl
+2025-03-31 14:58:43 - Group users: Array
+(
+    [0] => jkl
+    [1] => ivan
+    [2] => vasia
+    [3] => vitya
+)
+
+2025-03-31 14:58:43 - Generated keyMessage: 71790
+2025-03-31 14:58:43 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 197
+            [1] => 198
+            [2] => 199
+            [3] => 200
+        )
+
+    [keyMessage] => 71790
+)
+
+2025-03-31 15:23:17 - Received data: {"sender":"work","receiver":"GROUP","content":"asdf","timestamp":"2025-03-31T15:23:17.912Z","originalSender":"jkl","groupName":"work"}
+2025-03-31 15:23:17 - Parsed data: Array
+(
+    [sender] => work
+    [receiver] => GROUP
+    [content] => asdf
+    [timestamp] => 2025-03-31T15:23:17.912Z
+    [originalSender] => jkl
+    [groupName] => work
+)
+
+2025-03-31 15:23:17 - Converted timestamp: 2025-03-31 15:23:17
+2025-03-31 15:23:17 - Processing GROUP message for group: work from: jkl
+2025-03-31 15:23:17 - Group users: Array
+(
+    [0] => jkl
+    [1] => ivan
+    [2] => vasia
+    [3] => vitya
+)
+
+2025-03-31 15:23:17 - Generated keyMessage: 17002
+2025-03-31 15:23:17 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 201
+            [1] => 202
+            [2] => 203
+            [3] => 204
+        )
+
+    [keyMessage] => 17002
+)
+
+2025-03-31 15:23:22 - Received data: {"sender":"work","receiver":"GROUP","content":"asdd","timestamp":"2025-03-31T15:23:22.275Z","originalSender":"jkl","groupName":"work"}
+2025-03-31 15:23:22 - Parsed data: Array
+(
+    [sender] => work
+    [receiver] => GROUP
+    [content] => asdd
+    [timestamp] => 2025-03-31T15:23:22.275Z
+    [originalSender] => jkl
+    [groupName] => work
+)
+
+2025-03-31 15:23:22 - Converted timestamp: 2025-03-31 15:23:22
+2025-03-31 15:23:22 - Processing GROUP message for group: work from: jkl
+2025-03-31 15:23:22 - Group users: Array
+(
+    [0] => jkl
+    [1] => ivan
+    [2] => vasia
+    [3] => vitya
+)
+
+2025-03-31 15:23:22 - Generated keyMessage: 70342
+2025-03-31 15:23:22 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 205
+            [1] => 206
+            [2] => 207
+            [3] => 208
+        )
+
+    [keyMessage] => 70342
+)
+
+2025-04-02 07:10:15 - Received data: {"sender":"vitya","receiver":"jkl","content":"fdss","timestamp":"2025-04-02T07:10:15.202Z"}
+2025-04-02 07:10:15 - Parsed data: Array
+(
+    [sender] => vitya
+    [receiver] => jkl
+    [content] => fdss
+    [timestamp] => 2025-04-02T07:10:15.202Z
+)
+
+2025-04-02 07:10:15 - Converted timestamp: 2025-04-02 07:10:15
+2025-04-02 07:10:15 - Preparing to insert PERSONAL message: sender=vitya, receiver=jkl, timestamp=2025-04-02 07:10:15
+2025-04-02 07:10:15 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 209
+)
+
+2025-04-02 07:14:41 - Received data: {"sender":"jkl","receiver":"vitya","content":"ddddd","timestamp":"2025-04-02T07:14:41.063Z"}
+2025-04-02 07:14:41 - Parsed data: Array
+(
+    [sender] => jkl
+    [receiver] => vitya
+    [content] => ddddd
+    [timestamp] => 2025-04-02T07:14:41.063Z
+)
+
+2025-04-02 07:14:41 - Converted timestamp: 2025-04-02 07:14:41
+2025-04-02 07:14:41 - Preparing to insert PERSONAL message: sender=jkl, receiver=vitya, timestamp=2025-04-02 07:14:41
+2025-04-02 07:14:41 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 210
+)
+
+2025-04-02 07:16:21 - Received data: {"sender":"jkl","receiver":"vitya","content":"klsdfg","timestamp":"2025-04-02T07:16:21.831Z"}
+2025-04-02 07:16:21 - Parsed data: Array
+(
+    [sender] => jkl
+    [receiver] => vitya
+    [content] => klsdfg
+    [timestamp] => 2025-04-02T07:16:21.831Z
+)
+
+2025-04-02 07:16:21 - Converted timestamp: 2025-04-02 07:16:21
+2025-04-02 07:16:21 - Preparing to insert PERSONAL message: sender=jkl, receiver=vitya, timestamp=2025-04-02 07:16:21
+2025-04-02 07:16:21 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 211
+)
+
+2025-04-02 07:17:01 - Received data: {"sender":"jkl","receiver":"vitya","content":"sadf","timestamp":"2025-04-02T07:17:01.012Z"}
+2025-04-02 07:17:01 - Parsed data: Array
+(
+    [sender] => jkl
+    [receiver] => vitya
+    [content] => sadf
+    [timestamp] => 2025-04-02T07:17:01.012Z
+)
+
+2025-04-02 07:17:01 - Converted timestamp: 2025-04-02 07:17:01
+2025-04-02 07:17:01 - Preparing to insert PERSONAL message: sender=jkl, receiver=vitya, timestamp=2025-04-02 07:17:01
+2025-04-02 07:17:01 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 212
+)
+
+2025-04-02 07:18:18 - Received data: {"sender":"jkl","receiver":"vitya","content":"asd","timestamp":"2025-04-02T07:18:18.473Z"}
+2025-04-02 07:18:18 - Parsed data: Array
+(
+    [sender] => jkl
+    [receiver] => vitya
+    [content] => asd
+    [timestamp] => 2025-04-02T07:18:18.473Z
+)
+
+2025-04-02 07:18:18 - Converted timestamp: 2025-04-02 07:18:18
+2025-04-02 07:18:18 - Preparing to insert PERSONAL message: sender=jkl, receiver=vitya, timestamp=2025-04-02 07:18:18
+2025-04-02 07:18:18 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 213
+)
+
+2025-04-02 07:19:15 - Received data: {"sender":"jkl","receiver":"vitya","content":"sadf","timestamp":"2025-04-02T07:19:15.617Z"}
+2025-04-02 07:19:15 - Parsed data: Array
+(
+    [sender] => jkl
+    [receiver] => vitya
+    [content] => sadf
+    [timestamp] => 2025-04-02T07:19:15.617Z
+)
+
+2025-04-02 07:19:15 - Converted timestamp: 2025-04-02 07:19:15
+2025-04-02 07:19:15 - Preparing to insert PERSONAL message: sender=jkl, receiver=vitya, timestamp=2025-04-02 07:19:15
+2025-04-02 07:19:15 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 214
+)
+
+2025-04-02 07:20:05 - Received data: {"sender":"jkl","receiver":"vitya","content":"ddsdf","timestamp":"2025-04-02T07:20:05.808Z"}
+2025-04-02 07:20:05 - Parsed data: Array
+(
+    [sender] => jkl
+    [receiver] => vitya
+    [content] => ddsdf
+    [timestamp] => 2025-04-02T07:20:05.808Z
+)
+
+2025-04-02 07:20:05 - Converted timestamp: 2025-04-02 07:20:05
+2025-04-02 07:20:05 - Preparing to insert PERSONAL message: sender=jkl, receiver=vitya, timestamp=2025-04-02 07:20:05
+2025-04-02 07:20:05 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 215
+)
+
+2025-04-02 07:25:38 - Received data: {"sender":"Работа","receiver":"GROUP","content":"cvcc","timestamp":"2025-04-02T07:25:38.225Z","originalSender":"jkl","groupName":"Работа"}
+2025-04-02 07:25:38 - Parsed data: Array
+(
+    [sender] => Работа
+    [receiver] => GROUP
+    [content] => cvcc
+    [timestamp] => 2025-04-02T07:25:38.225Z
+    [originalSender] => jkl
+    [groupName] => Работа
+)
+
+2025-04-02 07:25:38 - Converted timestamp: 2025-04-02 07:25:38
+2025-04-02 07:25:38 - Processing GROUP message for group: Работа from: jkl
+2025-04-02 07:25:38 - Group users: Array
+(
+    [0] => Zahar
+    [1] => jkl
+    [2] => Egor
+    [3] => Kristina
+    [4] => matvey
+)
+
+2025-04-02 07:25:38 - Generated keyMessage: 57355
+2025-04-02 07:25:38 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 216
+            [1] => 217
+            [2] => 218
+            [3] => 219
+            [4] => 220
+        )
+
+    [keyMessage] => 57355
+)
+
+2025-04-02 07:26:08 - Received data: {"sender":"Работа","receiver":"GROUP","content":"zcxz","timestamp":"2025-04-02T07:26:08.420Z","originalSender":"jkl","groupName":"Работа"}
+2025-04-02 07:26:08 - Parsed data: Array
+(
+    [sender] => Работа
+    [receiver] => GROUP
+    [content] => zcxz
+    [timestamp] => 2025-04-02T07:26:08.420Z
+    [originalSender] => jkl
+    [groupName] => Работа
+)
+
+2025-04-02 07:26:08 - Converted timestamp: 2025-04-02 07:26:08
+2025-04-02 07:26:08 - Processing GROUP message for group: Работа from: jkl
+2025-04-02 07:26:08 - Group users: Array
+(
+    [0] => Zahar
+    [1] => jkl
+    [2] => Egor
+    [3] => Kristina
+    [4] => matvey
+)
+
+2025-04-02 07:26:08 - Generated keyMessage: 72713
+2025-04-02 07:26:08 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 221
+            [1] => 222
+            [2] => 223
+            [3] => 224
+            [4] => 225
+        )
+
+    [keyMessage] => 72713
+)
+
+2025-04-02 07:30:37 - Received data: {"sender":"vitya","receiver":"jkl","content":"afsg","timestamp":"2025-04-02T07:30:37.830Z"}
+2025-04-02 07:30:37 - Parsed data: Array
+(
+    [sender] => vitya
+    [receiver] => jkl
+    [content] => afsg
+    [timestamp] => 2025-04-02T07:30:37.830Z
+)
+
+2025-04-02 07:30:37 - Converted timestamp: 2025-04-02 07:30:37
+2025-04-02 07:30:37 - Preparing to insert PERSONAL message: sender=vitya, receiver=jkl, timestamp=2025-04-02 07:30:37
+2025-04-02 07:30:37 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 226
+)
+
+2025-04-02 07:31:56 - Received data: {"sender":"vitya","receiver":"jkl","content":"a","timestamp":"2025-04-02T07:31:56.576Z"}
+2025-04-02 07:31:56 - Parsed data: Array
+(
+    [sender] => vitya
+    [receiver] => jkl
+    [content] => a
+    [timestamp] => 2025-04-02T07:31:56.576Z
+)
+
+2025-04-02 07:31:56 - Converted timestamp: 2025-04-02 07:31:56
+2025-04-02 07:31:56 - Preparing to insert PERSONAL message: sender=vitya, receiver=jkl, timestamp=2025-04-02 07:31:56
+2025-04-02 07:31:56 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 227
+)
+
+2025-04-02 07:32:12 - Received data: {"sender":"jkl","receiver":"vitya","content":"b","timestamp":"2025-04-02T07:32:12.431Z"}
+2025-04-02 07:32:12 - Parsed data: Array
+(
+    [sender] => jkl
+    [receiver] => vitya
+    [content] => b
+    [timestamp] => 2025-04-02T07:32:12.431Z
+)
+
+2025-04-02 07:32:12 - Converted timestamp: 2025-04-02 07:32:12
+2025-04-02 07:32:12 - Preparing to insert PERSONAL message: sender=jkl, receiver=vitya, timestamp=2025-04-02 07:32:12
+2025-04-02 07:32:12 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 228
+)
+
+2025-04-02 07:33:13 - Received data: {"sender":"jkl","receiver":"vitya","content":"c","timestamp":"2025-04-02T07:33:13.864Z"}
+2025-04-02 07:33:13 - Parsed data: Array
+(
+    [sender] => jkl
+    [receiver] => vitya
+    [content] => c
+    [timestamp] => 2025-04-02T07:33:13.864Z
+)
+
+2025-04-02 07:33:13 - Converted timestamp: 2025-04-02 07:33:13
+2025-04-02 07:33:13 - Preparing to insert PERSONAL message: sender=jkl, receiver=vitya, timestamp=2025-04-02 07:33:13
+2025-04-02 07:33:13 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 229
+)
+
+2025-04-02 07:33:59 - Received data: {"sender":"Zahar","receiver":"jkl","content":"dsaff","timestamp":"2025-04-02T07:33:59.645Z"}
+2025-04-02 07:33:59 - Parsed data: Array
+(
+    [sender] => Zahar
+    [receiver] => jkl
+    [content] => dsaff
+    [timestamp] => 2025-04-02T07:33:59.645Z
+)
+
+2025-04-02 07:33:59 - Converted timestamp: 2025-04-02 07:33:59
+2025-04-02 07:33:59 - Preparing to insert PERSONAL message: sender=Zahar, receiver=jkl, timestamp=2025-04-02 07:33:59
+2025-04-02 07:33:59 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 230
+)
+
+2025-04-02 07:34:19 - Received data: {"sender":"Zahar","receiver":"jkl","content":"sss","timestamp":"2025-04-02T07:34:19.178Z"}
+2025-04-02 07:34:19 - Parsed data: Array
+(
+    [sender] => Zahar
+    [receiver] => jkl
+    [content] => sss
+    [timestamp] => 2025-04-02T07:34:19.178Z
+)
+
+2025-04-02 07:34:19 - Converted timestamp: 2025-04-02 07:34:19
+2025-04-02 07:34:19 - Preparing to insert PERSONAL message: sender=Zahar, receiver=jkl, timestamp=2025-04-02 07:34:19
+2025-04-02 07:34:19 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 231
+)
+
+2025-04-02 07:34:37 - Received data: {"sender":"jkl","receiver":"Zahar","content":"ssdsdsdsds","timestamp":"2025-04-02T07:34:37.658Z"}
+2025-04-02 07:34:37 - Parsed data: Array
+(
+    [sender] => jkl
+    [receiver] => Zahar
+    [content] => ssdsdsdsds
+    [timestamp] => 2025-04-02T07:34:37.658Z
+)
+
+2025-04-02 07:34:37 - Converted timestamp: 2025-04-02 07:34:37
+2025-04-02 07:34:37 - Preparing to insert PERSONAL message: sender=jkl, receiver=Zahar, timestamp=2025-04-02 07:34:37
+2025-04-02 07:34:37 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 232
+)
+
+2025-04-02 07:36:07 - Received data: {"sender":"vitya","receiver":"jkl","content":"hello jkl","timestamp":"2025-04-02T07:36:07.036Z"}
+2025-04-02 07:36:07 - Parsed data: Array
+(
+    [sender] => vitya
+    [receiver] => jkl
+    [content] => hello jkl
+    [timestamp] => 2025-04-02T07:36:07.036Z
+)
+
+2025-04-02 07:36:07 - Converted timestamp: 2025-04-02 07:36:07
+2025-04-02 07:36:07 - Preparing to insert PERSONAL message: sender=vitya, receiver=jkl, timestamp=2025-04-02 07:36:07
+2025-04-02 07:36:07 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 233
+)
+
+2025-04-02 07:36:13 - Received data: {"sender":"vitya","receiver":"jkl","content":"!!!","timestamp":"2025-04-02T07:36:13.068Z"}
+2025-04-02 07:36:13 - Parsed data: Array
+(
+    [sender] => vitya
+    [receiver] => jkl
+    [content] => !!!
+    [timestamp] => 2025-04-02T07:36:13.068Z
+)
+
+2025-04-02 07:36:13 - Converted timestamp: 2025-04-02 07:36:13
+2025-04-02 07:36:13 - Preparing to insert PERSONAL message: sender=vitya, receiver=jkl, timestamp=2025-04-02 07:36:13
+2025-04-02 07:36:13 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 234
+)
+
+2025-04-02 07:36:34 - Received data: {"sender":"jkl","receiver":"vitya","content":"qadfsd","timestamp":"2025-04-02T07:36:34.683Z"}
+2025-04-02 07:36:34 - Parsed data: Array
+(
+    [sender] => jkl
+    [receiver] => vitya
+    [content] => qadfsd
+    [timestamp] => 2025-04-02T07:36:34.683Z
+)
+
+2025-04-02 07:36:34 - Converted timestamp: 2025-04-02 07:36:34
+2025-04-02 07:36:34 - Preparing to insert PERSONAL message: sender=jkl, receiver=vitya, timestamp=2025-04-02 07:36:34
+2025-04-02 07:36:34 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 235
+)
+
+2025-04-02 07:38:40 - Received data: {"sender":"vitya","receiver":"jkl","content":"asdf","timestamp":"2025-04-02T07:38:40.486Z"}
+2025-04-02 07:38:40 - Parsed data: Array
+(
+    [sender] => vitya
+    [receiver] => jkl
+    [content] => asdf
+    [timestamp] => 2025-04-02T07:38:40.486Z
+)
+
+2025-04-02 07:38:40 - Converted timestamp: 2025-04-02 07:38:40
+2025-04-02 07:38:40 - Preparing to insert PERSONAL message: sender=vitya, receiver=jkl, timestamp=2025-04-02 07:38:40
+2025-04-02 07:38:40 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 236
+)
+
+2025-04-02 07:39:02 - Received data: {"sender":"jkl","receiver":"vitya","content":"hello vitya","timestamp":"2025-04-02T07:39:02.430Z"}
+2025-04-02 07:39:02 - Parsed data: Array
+(
+    [sender] => jkl
+    [receiver] => vitya
+    [content] => hello vitya
+    [timestamp] => 2025-04-02T07:39:02.430Z
+)
+
+2025-04-02 07:39:02 - Converted timestamp: 2025-04-02 07:39:02
+2025-04-02 07:39:02 - Preparing to insert PERSONAL message: sender=jkl, receiver=vitya, timestamp=2025-04-02 07:39:02
+2025-04-02 07:39:02 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 237
+)
+
+2025-04-02 07:39:21 - Received data: {"sender":"work","receiver":"GROUP","content":"adsfsd","timestamp":"2025-04-02T07:39:21.795Z","originalSender":"vitya","groupName":"work"}
+2025-04-02 07:39:21 - Parsed data: Array
+(
+    [sender] => work
+    [receiver] => GROUP
+    [content] => adsfsd
+    [timestamp] => 2025-04-02T07:39:21.795Z
+    [originalSender] => vitya
+    [groupName] => work
+)
+
+2025-04-02 07:39:21 - Converted timestamp: 2025-04-02 07:39:21
+2025-04-02 07:39:21 - Processing GROUP message for group: work from: vitya
+2025-04-02 07:39:21 - Group users: Array
+(
+    [0] => jkl
+    [1] => ivan
+    [2] => vasia
+    [3] => vitya
+)
+
+2025-04-02 07:39:21 - Generated keyMessage: 52654
+2025-04-02 07:39:21 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 238
+            [1] => 239
+            [2] => 240
+            [3] => 241
+        )
+
+    [keyMessage] => 52654
+)
+
+2025-04-02 07:40:00 - Received data: {"sender":"Работа","receiver":"GROUP","content":"asd","timestamp":"2025-04-02T07:40:00.227Z","originalSender":"jkl","groupName":"Работа"}
+2025-04-02 07:40:00 - Parsed data: Array
+(
+    [sender] => Работа
+    [receiver] => GROUP
+    [content] => asd
+    [timestamp] => 2025-04-02T07:40:00.227Z
+    [originalSender] => jkl
+    [groupName] => Работа
+)
+
+2025-04-02 07:40:00 - Converted timestamp: 2025-04-02 07:40:00
+2025-04-02 07:40:00 - Processing GROUP message for group: Работа from: jkl
+2025-04-02 07:40:00 - Group users: Array
+(
+    [0] => Zahar
+    [1] => jkl
+    [2] => Egor
+    [3] => Kristina
+    [4] => matvey
+)
+
+2025-04-02 07:40:00 - Generated keyMessage: 41460
+2025-04-02 07:40:00 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 242
+            [1] => 243
+            [2] => 244
+            [3] => 245
+            [4] => 246
+        )
+
+    [keyMessage] => 41460
+)
+
+2025-04-02 07:40:51 - Received data: {"sender":"Работа","receiver":"GROUP","content":"я захар","timestamp":"2025-04-02T07:40:51.674Z","originalSender":"Zahar","groupName":"Работа"}
+2025-04-02 07:40:51 - Parsed data: Array
+(
+    [sender] => Работа
+    [receiver] => GROUP
+    [content] => я захар
+    [timestamp] => 2025-04-02T07:40:51.674Z
+    [originalSender] => Zahar
+    [groupName] => Работа
+)
+
+2025-04-02 07:40:51 - Converted timestamp: 2025-04-02 07:40:51
+2025-04-02 07:40:51 - Processing GROUP message for group: Работа from: Zahar
+2025-04-02 07:40:51 - Group users: Array
+(
+    [0] => Zahar
+    [1] => jkl
+    [2] => Egor
+    [3] => Kristina
+    [4] => matvey
+)
+
+2025-04-02 07:40:51 - Generated keyMessage: 8148
+2025-04-02 07:40:51 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 247
+            [1] => 248
+            [2] => 249
+            [3] => 250
+            [4] => 251
+        )
+
+    [keyMessage] => 8148
+)
+
+2025-04-02 07:42:43 - Received data: {"sender":"work","receiver":"GROUP","content":"я витя","timestamp":"2025-04-02T07:42:43.026Z","originalSender":"vitya","groupName":"work"}
+2025-04-02 07:42:43 - Parsed data: Array
+(
+    [sender] => work
+    [receiver] => GROUP
+    [content] => я витя
+    [timestamp] => 2025-04-02T07:42:43.026Z
+    [originalSender] => vitya
+    [groupName] => work
+)
+
+2025-04-02 07:42:43 - Converted timestamp: 2025-04-02 07:42:43
+2025-04-02 07:42:43 - Processing GROUP message for group: work from: vitya
+2025-04-02 07:42:43 - Group users: Array
+(
+    [0] => jkl
+    [1] => ivan
+    [2] => vasia
+    [3] => vitya
+)
+
+2025-04-02 07:42:43 - Generated keyMessage: 15500
+2025-04-02 07:42:43 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 252
+            [1] => 253
+            [2] => 254
+            [3] => 255
+        )
+
+    [keyMessage] => 15500
+)
+
+2025-04-02 07:43:08 - Received data: {"sender":"vitya","receiver":"jkl","content":"привет я витя","timestamp":"2025-04-02T07:43:08.428Z"}
+2025-04-02 07:43:08 - Parsed data: Array
+(
+    [sender] => vitya
+    [receiver] => jkl
+    [content] => привет я витя
+    [timestamp] => 2025-04-02T07:43:08.428Z
+)
+
+2025-04-02 07:43:08 - Converted timestamp: 2025-04-02 07:43:08
+2025-04-02 07:43:08 - Preparing to insert PERSONAL message: sender=vitya, receiver=jkl, timestamp=2025-04-02 07:43:08
+2025-04-02 07:43:08 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 256
+)
+
+2025-04-02 07:43:22 - Received data: {"sender":"Работа","receiver":"GROUP","content":"привет","timestamp":"2025-04-02T07:43:22.207Z","originalSender":"jkl","groupName":"Работа"}
+2025-04-02 07:43:22 - Parsed data: Array
+(
+    [sender] => Работа
+    [receiver] => GROUP
+    [content] => привет
+    [timestamp] => 2025-04-02T07:43:22.207Z
+    [originalSender] => jkl
+    [groupName] => Работа
+)
+
+2025-04-02 07:43:22 - Converted timestamp: 2025-04-02 07:43:22
+2025-04-02 07:43:22 - Processing GROUP message for group: Работа from: jkl
+2025-04-02 07:43:22 - Group users: Array
+(
+    [0] => Zahar
+    [1] => jkl
+    [2] => Egor
+    [3] => Kristina
+    [4] => matvey
+)
+
+2025-04-02 07:43:22 - Generated keyMessage: 75269
+2025-04-02 07:43:22 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 257
+            [1] => 258
+            [2] => 259
+            [3] => 260
+            [4] => 261
+        )
+
+    [keyMessage] => 75269
+)
+
+2025-04-02 07:43:42 - Received data: {"sender":"jkl","receiver":"vitya","content":"привтет!!","timestamp":"2025-04-02T07:43:42.934Z"}
+2025-04-02 07:43:42 - Parsed data: Array
+(
+    [sender] => jkl
+    [receiver] => vitya
+    [content] => привтет!!
+    [timestamp] => 2025-04-02T07:43:42.934Z
+)
+
+2025-04-02 07:43:42 - Converted timestamp: 2025-04-02 07:43:42
+2025-04-02 07:43:42 - Preparing to insert PERSONAL message: sender=jkl, receiver=vitya, timestamp=2025-04-02 07:43:42
+2025-04-02 07:43:42 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 262
+)
+
+2025-04-02 07:44:13 - Received data: {"sender":"Работа","receiver":"GROUP","content":"привет я jkl","timestamp":"2025-04-02T07:44:12.957Z","originalSender":"jkl","groupName":"Работа"}
+2025-04-02 07:44:13 - Parsed data: Array
+(
+    [sender] => Работа
+    [receiver] => GROUP
+    [content] => привет я jkl
+    [timestamp] => 2025-04-02T07:44:12.957Z
+    [originalSender] => jkl
+    [groupName] => Работа
+)
+
+2025-04-02 07:44:13 - Converted timestamp: 2025-04-02 07:44:12
+2025-04-02 07:44:13 - Processing GROUP message for group: Работа from: jkl
+2025-04-02 07:44:13 - Group users: Array
+(
+    [0] => Zahar
+    [1] => jkl
+    [2] => Egor
+    [3] => Kristina
+    [4] => matvey
+)
+
+2025-04-02 07:44:13 - Generated keyMessage: 41763
+2025-04-02 07:44:13 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 263
+            [1] => 264
+            [2] => 265
+            [3] => 266
+            [4] => 267
+        )
+
+    [keyMessage] => 41763
+)
+
+2025-04-02 07:44:26 - Received data: {"sender":"Работа","receiver":"GROUP","content":"привет я захар","timestamp":"2025-04-02T07:44:26.017Z","originalSender":"Zahar","groupName":"Работа"}
+2025-04-02 07:44:26 - Parsed data: Array
+(
+    [sender] => Работа
+    [receiver] => GROUP
+    [content] => привет я захар
+    [timestamp] => 2025-04-02T07:44:26.017Z
+    [originalSender] => Zahar
+    [groupName] => Работа
+)
+
+2025-04-02 07:44:26 - Converted timestamp: 2025-04-02 07:44:26
+2025-04-02 07:44:26 - Processing GROUP message for group: Работа from: Zahar
+2025-04-02 07:44:26 - Group users: Array
+(
+    [0] => Zahar
+    [1] => jkl
+    [2] => Egor
+    [3] => Kristina
+    [4] => matvey
+)
+
+2025-04-02 07:44:26 - Generated keyMessage: 62920
+2025-04-02 07:44:26 - Group Success: Array
+(
+    [success] => 1
+    [message] => Групповое сообщение сохранено успешно
+    [ids] => Array
+        (
+            [0] => 268
+            [1] => 269
+            [2] => 270
+            [3] => 271
+            [4] => 272
+        )
+
+    [keyMessage] => 62920
+)
+
+2025-04-02 15:59:46 - Received data: {"sender":"Zahar","receiver":"Zahar","content":"vcxb","timestamp":"2025-04-02T15:59:46.074Z"}
+2025-04-02 15:59:46 - Parsed data: Array
+(
+    [sender] => Zahar
+    [receiver] => Zahar
+    [content] => vcxb
+    [timestamp] => 2025-04-02T15:59:46.074Z
+)
+
+2025-04-02 15:59:46 - Converted timestamp: 2025-04-02 15:59:46
+2025-04-02 15:59:46 - Preparing to insert PERSONAL message: sender=Zahar, receiver=Zahar, timestamp=2025-04-02 15:59:46
+2025-04-02 15:59:46 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 273
+)
+
+2025-04-02 16:18:17 - Received data: {"sender":"Zahar","receiver":"vitya","content":"hi","timestamp":"2025-04-02T16:18:17.498Z"}
+2025-04-02 16:18:17 - Parsed data: Array
+(
+    [sender] => Zahar
+    [receiver] => vitya
+    [content] => hi
+    [timestamp] => 2025-04-02T16:18:17.498Z
+)
+
+2025-04-02 16:18:17 - Converted timestamp: 2025-04-02 16:18:17
+2025-04-02 16:18:17 - Preparing to insert PERSONAL message: sender=Zahar, receiver=vitya, timestamp=2025-04-02 16:18:17
+2025-04-02 16:18:17 - Success: Array
+(
+    [success] => 1
+    [message] => Личное сообщение сохранено успешно
+    [id] => 274
+)
+
